@@ -33,13 +33,14 @@ nav ul{
     padding: 0;
     gap: 1em;
 }
-nav ul li{
-    margin: 0em;
-}
+
+    
+
 nav ul li a{
     color: white;
     text-decoration: none;
     padding: 3 em;
+    margin: 0em;
 }
 nav ul li a:hover{
     background-color: aqua;
