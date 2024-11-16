@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Uso Integrado</title>
+     <title> Uso Integrado de Lenguajes</title>
 </head>
 <body>
+
     <header>
         <nav>
             <ul>
@@ -15,25 +16,45 @@
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
+            <button id="nav toggle" aria-label="toggle navigation"> P</button>
+        </nav>
     </header>
-    <section id="inicio">Inicio
+    <div>
+    <section id="inicio">
         <h1>Bienvenido a nuestra pagina WEB</h1>
         <p>Contenido de mi pagina</p>
+        <br>
+        <button onclick="mostrarMensaje('este es el mensaje para la sesion de inicio')">DAME CLICK</button>
     </section>
-    <section id="nosotros">Nosotros
+    <section id="nosotros">
+        <article>
         <h1>Nosotros</h1>
-        <p>Somos una empesa dedicada al modelo colaborativo de aprrendizaje</p>
+        <p>Somos una empesa dedicada al modelo colaborativo de aprendizaje
+            <br>
+            <button onclick="mostrarMensaje('este es el mensaje para la sesion de inicio')">DAME CLICK</button>
+            <Br>
+            <strong>En los años 1600</strong> cuando el tirano mando <mark> las calles</mark> de cartagena
+            <i>aquella historia vivio </i>
+        <span>Pam pam pam</span>  
+          </p>
+        </article>
     </section>
     <section id="servicios">Servicios
         <h1>Nuestros Servicios</h1>
         <p>Ofrecemos servicios de alta calidad</p>
+        <br>
+        <button onclick="mostrarMensaje('este es el mensaje para la sesion de servicios')">DAME CLICK</button>
     </section>
-    <section id="contacto">
+    <section id="contacto">Contactenos
         <h1>Contactenos</h1>
-        <p>Av siempre viva 123</p>
+        <p>Dirección de nuestra oficina</p>
+        <p>Calle utopia 524</p>
+        <br>
+        <button onclick="mostrarMensaje('este es el mensaje para la sesion de contacto')">DAME CLICK</button>
     </section>
+</div>
 </main>
-
+<script src="script.js"></script>
 
   <footer>
     <hr>
